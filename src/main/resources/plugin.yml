@@ -3,4 +3,10 @@ version: ${project.version}
 main: esp.lbelmar.tntnoexplode.TntNoExplode
 api-version: 1.17
 authors: [ LuisBelloch ]
-description: Tnt will not brake blocks
+description: Configure the explosions behaviour
+
+commands:
+  configExplosion:
+    description: Configure the explosions behaviour
+    usage: /configExplosion
+    permission: minecraft.command.gamerule
