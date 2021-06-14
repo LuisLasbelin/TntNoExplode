@@ -1,0 +1,6 @@
+name: TntNoExplode
+version: ${project.version}
+main: esp.lbelmar.tntnoexplode.TntNoExplode
+api-version: 1.17
+authors: [ LuisBelloch ]
+description: Tnt will not brake blocks
